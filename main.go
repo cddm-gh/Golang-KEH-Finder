@@ -85,7 +85,7 @@ func main() {
 			break
 		} else {
 			log.Println("The item was not found this time")
-			time.Sleep(30 * time.Second)
+			time.Sleep(5 * time.Minute)
 		}
 	}
 }
